@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/nvinto-ocm-tenant/partner-catalog/partner-catalog@sha256:8fa9792df4a6763ca9f147a3d1ae5e501c2d4fe41f92f9d38caa193e3696c9c9
+      - image: quay.io/redhat-user-workloads/nvinto-ocm-tenant/partner-catalog/partner-catalog@sha256:c3197e80fb1852b7283c98bc460242e06ff6e8c59d327dc36214ece3bc77afaf
         name: my-java-springboot
         ports:
         - containerPort: 8081
